@@ -1,0 +1,58 @@
+.container{
+    padding-top: 40px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.result {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    margin: 0px 1px;
+}
+
+#calc {
+    color: white;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+li {
+    background-color: lightgray;
+    border: 1px solid black;
+    list-style-type: none;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul{
+    padding: 0px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+
+}
+.top li {
+
+    width: 24%;
+    flex-grow: 1;
+    margin: 1px;
+}
+
+
+.bottom li {
+    width: 49%;
+    flex-grow: 1;
+    margin: 1px;
+    
+}
+
+
+.button ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
